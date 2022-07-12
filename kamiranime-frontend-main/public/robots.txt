@@ -1,0 +1,49 @@
+# https://www.robotstxt.org/robotstxt.html
+Sitemap: https://gotec-4be17.web.app/sitemap.xml
+
+User-Agent: *
+Disallow: /?s=
+Disallow: /search
+Disallow: /*?
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.inc$
+Disallow: /*.css$
+Disallow: */feed/
+Disallow: */trackback/
+Disallow: /page/
+
+
+Disallow: /*.sql$
+Disallow: /*.tgz$
+Disallow: /*.gz$
+Disallow: /*.tar$
+Disallow: /*.svn$
+
+# Reglas para bots conocidos
+User-agent: Googlebot
+User-agent: Googlebot-Image
+Disallow: /wp-includes/
+Allow: /wp-content/uploads/
+User-agent: Mediapartners-Google*
+Disallow:
+User-agent: ia_archiver
+Disallow: /
+User-agent: duggmirror
+Disallow: /
+User-agent: noxtrumbot
+Crawl-delay: 50
+User-agent: msnbot
+Crawl-delay: 30
+User-agent: Slurp
+Crawl-delay: 10
+User-agent: MSIECrawler
+Disallow: /
+User-agent: WebCopier
+Disallow: /
+User-agent: HTTrack
+Disallow: /
+User-agent: Microsoft.URL.Control
+Disallow: /
+User-agent: libwww
+Disallow: /
